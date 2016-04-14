@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.home .hero-spacer {
+	margin-top: 50px;
+}
+
+
+.home .hero-feature {
+	margin-bottom: 30px;
+}
+
+/****** LOGIN MODAL ******/
+.home .loginmodal-container {
+	padding: 30px;
+	max-width: 350px;
+	width: 100% !important;
+	background-color: #F7F7F7;
+	margin: 0 auto;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.home .loginmodal-container h1 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.home .loginmodal-container input[type=submit] {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.home .loginmodal-container input[type=text], input[type=password] {
+	height: 44px;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+	/* border-radius: 2px; */
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.home .loginmodal-container input[type=text]:hover, input[type=password]:hover {
+	border: 1px solid #b9b9b9;
+	border-top: 1px solid #a0a0a0;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.home .loginmodal {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	height: 36px;
+	padding: 0 8px;
+	/* border-radius: 3px; */
+	/* -webkit-user-select: none;
+	user-select: none; */
+}
+
+.home .loginmodal-submit {
+	/* border: 1px solid #3079ed; */
+	border: 0px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,0.1); 
+	background-color: #4d90fe;
+	padding: 17px 0px;
+	font-size: 14px;
+	/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.home .loginmodal-submit:hover {
+	/* border: 1px solid #2f5bb7; */
+	border: 0px;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+	background-color: #357ae8;
+	/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.home .loginmodal-container a {
+	text-decoration: none;
+	color: #666;
+	font-weight: 400;
+	text-align: center;
+	display: inline-block;
+	opacity: 0.6;
+	transition: opacity ease 0.5s;
+} 
+
+.home .login-help {
+	font-size: 12px;
+}
+
+
+.shop .slide-image {
+	width: 100%;
+}
+
+.shop .carousel-holder {
+	margin-bottom: 30px;
+}
+
+.shop .carousel-control,
+.shop .item {
+	border-radius: 4px;
+}
+
+.shop .caption {
+	height: 130px;
+	overflow: hidden;
+}
+
+.shop .caption h4 {
+	white-space: nowrap;
+}
+
+.shop .thumbnail img {
+	width: 100%;
+}
+
+.shop .ratings {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #d17581;
+}
+
+.shop .thumbnail {
+	padding: 0;
+}
+
+.shop .thumbnail .caption-full {
+	padding: 9px;
+	color: #333;
+}
+
+.item .thumbnail img {
+	width: 100%;
+}
+
+.item .ratings {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #d17581;
+}
+
+.item .thumbnail {
+	padding: 0;
+}
+
+.item .thumbnail .caption-full {
+	padding: 9px;
+	color: #333;
+}
+
+.item .headermessage {
+	margin: 19px;
+	color: black;
+	font-family: 'open sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	}
+.item .image-block {
+	border: 3px solid white ;
+	background-color: black;
+	padding: 0px;    
+	margin: 0px;
+	height:200px;
+	text-align: center;
+	vertical-align: bottom;
+	}
+.item .image-block > p {
+	width: 100%;
+	height: 100%;
+	font-weight: normal;
+	font-size: 19px;
+	padding-top: 150px;
+	background-color: rgba(3,3,3,0.0);
+	color: rgba(6,6,6,0.0);
+	}
+.item .image-block:hover > p {
+	background-color: rgba(3,3,3,0.5);    
+	color: white;    
+}
+
+footer {
+	margin: 50px 0;
+}
